@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/Csharp/ejer-4/bin/Debug/net7.0/ejer-4
+/home/arteN01-48/Desktop/Csharp/ejer-4/bin/Debug/net7.0/ejer-4.deps.json
+/home/arteN01-48/Desktop/Csharp/ejer-4/bin/Debug/net7.0/ejer-4.runtimeconfig.json
+/home/arteN01-48/Desktop/Csharp/ejer-4/bin/Debug/net7.0/ejer-4.dll
+/home/arteN01-48/Desktop/Csharp/ejer-4/bin/Debug/net7.0/ejer-4.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.AssemblyInfo.cs
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.dll
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/refint/ejer-4.dll
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ejer-4.genruntimeconfig.cache
+/home/arteN01-48/Desktop/Csharp/ejer-4/obj/Debug/net7.0/ref/ejer-4.dll

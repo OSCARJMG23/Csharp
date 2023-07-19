@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/bin/Debug/net7.0/ejer-5-while
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/bin/Debug/net7.0/ejer-5-while.deps.json
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/bin/Debug/net7.0/ejer-5-while.runtimeconfig.json
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/bin/Debug/net7.0/ejer-5-while.dll
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/bin/Debug/net7.0/ejer-5-while.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.AssemblyInfo.cs
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.dll
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/refint/ejer-5-while.dll
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ejer-5-while.genruntimeconfig.cache
+/home/arteN01-48/Desktop/Csharp/ejer-5-while/obj/Debug/net7.0/ref/ejer-5-while.dll
