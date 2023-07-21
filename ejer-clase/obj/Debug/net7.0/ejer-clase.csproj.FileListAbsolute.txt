@@ -1,0 +1,15 @@
+C:\Users\DDR5\Documents\Csharp\ejer-clase\bin\Debug\net7.0\ejer-clase.exe
+C:\Users\DDR5\Documents\Csharp\ejer-clase\bin\Debug\net7.0\ejer-clase.deps.json
+C:\Users\DDR5\Documents\Csharp\ejer-clase\bin\Debug\net7.0\ejer-clase.runtimeconfig.json
+C:\Users\DDR5\Documents\Csharp\ejer-clase\bin\Debug\net7.0\ejer-clase.dll
+C:\Users\DDR5\Documents\Csharp\ejer-clase\bin\Debug\net7.0\ejer-clase.pdb
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.csproj.AssemblyReference.cache
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.AssemblyInfoInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.AssemblyInfo.cs
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.csproj.CoreCompileInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.dll
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\refint\ejer-clase.dll
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.pdb
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ejer-clase.genruntimeconfig.cache
+C:\Users\DDR5\Documents\Csharp\ejer-clase\obj\Debug\net7.0\ref\ejer-clase.dll

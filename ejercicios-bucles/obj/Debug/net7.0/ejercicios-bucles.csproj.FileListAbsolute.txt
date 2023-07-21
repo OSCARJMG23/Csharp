@@ -1,0 +1,15 @@
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\bin\Debug\net7.0\ejercicios-bucles.exe
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\bin\Debug\net7.0\ejercicios-bucles.deps.json
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\bin\Debug\net7.0\ejercicios-bucles.runtimeconfig.json
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\bin\Debug\net7.0\ejercicios-bucles.dll
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\bin\Debug\net7.0\ejercicios-bucles.pdb
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.csproj.AssemblyReference.cache
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.AssemblyInfoInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.AssemblyInfo.cs
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.csproj.CoreCompileInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.dll
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\refint\ejercicios-bucles.dll
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.pdb
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ejercicios-bucles.genruntimeconfig.cache
+C:\Users\DDR5\Documents\Csharp\ejercicios-bucles\obj\Debug\net7.0\ref\ejercicios-bucles.dll
