@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicios-bucles\\ejercicios-bucles.csproj": {}
+    "/home/arteN01-48/Desktop/Csharp/ejercicios-bucles/ejercicios-bucles.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicios-bucles\\ejercicios-bucles.csproj": {
+    "/home/arteN01-48/Desktop/Csharp/ejercicios-bucles/ejercicios-bucles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicios-bucles\\ejercicios-bucles.csproj",
+        "projectUniqueName": "/home/arteN01-48/Desktop/Csharp/ejercicios-bucles/ejercicios-bucles.csproj",
         "projectName": "ejercicios-bucles",
-        "projectPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicios-bucles\\ejercicios-bucles.csproj",
-        "packagesPath": "C:\\Users\\DDR5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicios-bucles\\obj\\",
+        "projectPath": "/home/arteN01-48/Desktop/Csharp/ejercicios-bucles/ejercicios-bucles.csproj",
+        "packagesPath": "/home/arteN01-48/.nuget/packages/",
+        "outputPath": "/home/arteN01-48/Desktop/Csharp/ejercicios-bucles/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DDR5\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/arteN01-48/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

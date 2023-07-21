@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/bin/Debug/net7.0/miPrimerPrograma}
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/bin/Debug/net7.0/miPrimerPrograma}.deps.json
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/bin/Debug/net7.0/miPrimerPrograma}.runtimeconfig.json
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/bin/Debug/net7.0/miPrimerPrograma}.dll
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/bin/Debug/net7.0/miPrimerPrograma}.pdb
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.AssemblyInfo.cs
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.dll
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/refint/miPrimerPrograma}.dll
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.pdb
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/miPrimerPrograma}.genruntimeconfig.cache
+/home/arteN01-48/Desktop/csharp/miPrimerPrograma}/obj/Debug/net7.0/ref/miPrimerPrograma}.dll
