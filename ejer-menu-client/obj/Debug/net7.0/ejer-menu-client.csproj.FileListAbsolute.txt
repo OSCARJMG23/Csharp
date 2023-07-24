@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/bin/Debug/net7.0/ejer-menu-client
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/bin/Debug/net7.0/ejer-menu-client.deps.json
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/bin/Debug/net7.0/ejer-menu-client.runtimeconfig.json
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/bin/Debug/net7.0/ejer-menu-client.dll
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/bin/Debug/net7.0/ejer-menu-client.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.AssemblyInfo.cs
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.dll
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/refint/ejer-menu-client.dll
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ejer-menu-client.genruntimeconfig.cache
+/home/arteN01-48/Desktop/Csharp/ejer-menu-client/obj/Debug/net7.0/ref/ejer-menu-client.dll

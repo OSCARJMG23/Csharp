@@ -24,7 +24,7 @@ for(int i = 0; i < 8; i++)
     int newRow = posicionFila + movimientosFila[i];
     int newCol = posicionColumna + movimientosColumna[i];
 
-    if(newRow >0 && newRow < 8 && newCol>0 && newCol <8)
+    if(newRow >=0 && newRow < 8 && newCol>=0 && newCol <8)
     {
         Console.WriteLine($"\nFila: {filas[newRow]}, Columna: {columnas[newCol]}");
     }
