@@ -1,0 +1,15 @@
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.csproj.AssemblyReference.cache
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.AssemblyInfoInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.AssemblyInfo.cs
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.csproj.CoreCompileInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\bin\Debug\net7.0\ejercicio-caballo.exe
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\bin\Debug\net7.0\ejercicio-caballo.deps.json
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\bin\Debug\net7.0\ejercicio-caballo.runtimeconfig.json
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\bin\Debug\net7.0\ejercicio-caballo.dll
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\bin\Debug\net7.0\ejercicio-caballo.pdb
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.dll
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\refint\ejercicio-caballo.dll
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.pdb
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ejercicio-caballo.genruntimeconfig.cache
+C:\Users\DDR5\Documents\Csharp\ejercicio-caballo\obj\Debug\net7.0\ref\ejercicio-caballo.dll

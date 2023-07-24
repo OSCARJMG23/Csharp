@@ -1,0 +1,15 @@
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.csproj.AssemblyReference.cache
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.AssemblyInfoInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.AssemblyInfo.cs
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.csproj.CoreCompileInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\bin\Debug\net7.0\ejer-caballo.exe
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\bin\Debug\net7.0\ejer-caballo.deps.json
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\bin\Debug\net7.0\ejer-caballo.runtimeconfig.json
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\bin\Debug\net7.0\ejer-caballo.dll
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\bin\Debug\net7.0\ejer-caballo.pdb
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.dll
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\refint\ejer-caballo.dll
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.pdb
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ejer-caballo.genruntimeconfig.cache
+C:\Users\DDR5\Documents\Csharp\ejer-caballo\obj\Debug\net7.0\ref\ejer-caballo.dll
