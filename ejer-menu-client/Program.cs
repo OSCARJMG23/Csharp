@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 class Program {
-    public static  Dictionary<string,long> contactos = new Dictionary<string, long>();
+    public static  Dictionary<string,string> contactos = new Dictionary<string, string>();
     static void Main() {
         int opcion;
 
@@ -53,27 +53,54 @@ class Program {
         Console.Write("Ingrese el nombre del nuevo cliente: ");
         string? nameCient = Console.ReadLine();
         Console.Write("Ingrese el numero de telefono: ");
-        long num = long.Parse(Console.ReadLine());
+        string num = Console.ReadLine();
         contactos.Add(nameCient,num);
+        Console.WriteLine("Contaco agregado con exito!!!");
     }
 
     static void MostrarContacto() {
-        foreach(KeyValuePair<string,long> contacto in contactos)
+        if(contactos.Count >=1)
         {
-            Console.WriteLine($"Nombre: {contacto.Key} Telefono: {contacto.Value}");
+            Console.WriteLine($"***************** Contactos ***************** \nTienes {contactos.Count} contactos en tu lista\n");
+            foreach(KeyValuePair<string,string> contacto in contactos)
+            {
+                Console.WriteLine($"Nombre: {contacto.Key} Telefono: {contacto.Value}\n");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Aun no existen contactos en la lista");
         }
     }
 
     static void ContactImp() {
         MostrarContacto();
-        Console.Write("Ingrese el nombre del contacto a marcar como importante: ");
+        Console.Write("Ingrese el nombre completo del contacto a marcar como importante: ");
         string? contacFav = Console.ReadLine();
+        if(contactos.ContainsKey(contacFav))
+        {
+            contactos[contacFav] = contactos[contacFav]+ "   ⭐";
+            Console.WriteLine($"{contacFav} se agrego como contacto importanto o favorito");
+        }
+        else
+        {
+            Console.WriteLine($"{contacFav} no existe en la lista de contactos");
+        }
+        
 
     }
     static void EliminarContac() {
-        Console.Write("Ingresa el radio del círculo: ");
-        double radio = Convert.ToDouble(Console.ReadLine());
-        double area = Math.PI * radio * radio;
-        Console.WriteLine($"El área del círculo es: {area}");
+        Console.Write("Ingrese el nombre del contacto a eliminar: ");
+        string? deleteClient = Console.ReadLine();
+        if(contactos.ContainsKey(deleteClient))
+        {
+            contactos.Remove(deleteClient);
+            Console.WriteLine($"{deleteClient} ha sido eliminado con exito!!!");
+        }
+        else
+        {
+            Console.WriteLine($"{deleteClient} no existe en la lista de clientes");
+        }
+        
     }
 }
