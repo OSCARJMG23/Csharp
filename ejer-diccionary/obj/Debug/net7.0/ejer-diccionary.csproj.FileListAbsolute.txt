@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.AssemblyInfo.cs
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/bin/Debug/net7.0/ejer-diccionary
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/bin/Debug/net7.0/ejer-diccionary.deps.json
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/bin/Debug/net7.0/ejer-diccionary.runtimeconfig.json
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/bin/Debug/net7.0/ejer-diccionary.dll
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/bin/Debug/net7.0/ejer-diccionary.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.dll
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/refint/ejer-diccionary.dll
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ejer-diccionary.genruntimeconfig.cache
+/home/arteN01-48/Desktop/Csharp/ejer-diccionary/obj/Debug/net7.0/ref/ejer-diccionary.dll
