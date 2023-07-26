@@ -43,7 +43,7 @@ class Program {
             }
 
             Console.WriteLine();
-        } while (opcion != 4);
+        } while (opcion != 5);
     }
 
     static void MostrarMenu() {
@@ -76,7 +76,7 @@ class Program {
             string? hobby = Console.ReadLine();
             hobbies.Add(hobby);
         }
-        Usuario usuario = new Usuario(name,edad,hobbies);
+        Usuario usuario = new Usuario(name, edad, hobbies);
         Usuarios.Add(nDoc,usuario);
     }
 
@@ -86,12 +86,9 @@ class Program {
         if (Usuarios.ContainsKey(nConsult))
         {
             var user = Usuarios[nConsult];
-            for (int i = 0; i < usuario.Value.Hobbies.Length; i++)
-            {
-                hobies+= $"{usuario.Value.Hobbies[i]} ";
-
-            }
-            Console.WriteLine($"{user.Nombre}, Edad:{user.Edad}. Hobbies:{hobies}");
+            string hobies = string.Join(", ",user.Hobbies);
+            Console.WriteLine("********************* Usuario Encontrado *********************\n");
+            Console.WriteLine($"Nombre: {user.Nombre} Edad: {user.Edad} Hobbies: {hobies}");
         }
         else
         {
@@ -100,11 +97,37 @@ class Program {
     }
 
     static void MostrarUsuarios() {
-        Console.Write("Ingresa el radio del círculo: ");
+        Console.WriteLine("*********************   Usuarios Disponibles   *********************\n");
+        if(Usuarios.Count >=1)
+        {
+            foreach (var usuario in Usuarios)
+            {
+                int nDoc = usuario.Key;
+                var user = usuario.Value;
 
+                string hobbies = string.Join(", ", user.Hobbies); // Unir los hobbies en una cadena separada por comas
+
+                Console.WriteLine($"Número de documento: {nDoc} \t Nombre: {user.Nombre} \t Edad: {user.Edad} \t Hobbies: {hobbies}");
+            }
+        
+        }
+        else
+        {
+            Console.WriteLine("No hay usuarios registrados.");
+        }
     }
     static void EiminarUsuario() {
-        Console.Write("Ingresa el radio del círculo: ");
+        Console.Write("Ingrese el documento del usuario a eliminar: ");
+        int nDocDelete = Convert.ToInt32(Console.ReadLine());
+        if(Usuarios.ContainsKey(nDocDelete))
+        {
+            Usuarios.Remove(nDocDelete);
+            Console.WriteLine("********************* Usuario eliminado *********************");
+        }
+        else
+        {
+            Console.WriteLine($"**************** El usuario con numero de documento {nDocDelete} no existe ****************");
+        }
 
     }
 }
