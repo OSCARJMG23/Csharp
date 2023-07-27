@@ -1,0 +1,15 @@
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\bin\Debug\net7.0\UsuarioHobbiesPOO.exe
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\bin\Debug\net7.0\UsuarioHobbiesPOO.deps.json
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\bin\Debug\net7.0\UsuarioHobbiesPOO.runtimeconfig.json
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\bin\Debug\net7.0\UsuarioHobbiesPOO.dll
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\bin\Debug\net7.0\UsuarioHobbiesPOO.pdb
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.csproj.AssemblyReference.cache
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.AssemblyInfoInputs.cache
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.AssemblyInfo.cs
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.csproj.CoreCompileInputs.cache
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.dll
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\refint\UsuarioHobbiesPOO.dll
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.pdb
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\UsuarioHobbiesPOO.genruntimeconfig.cache
+D:\Roy\2023 Segundo Semestre\CAMPUS\CSharp\UsuarioHobbiesPOO\obj\Debug\net7.0\ref\UsuarioHobbiesPOO.dll

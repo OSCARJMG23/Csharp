@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.AssemblyInfo.cs
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/bin/Debug/net7.0/ejer-gestionProduc
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/bin/Debug/net7.0/ejer-gestionProduc.deps.json
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/bin/Debug/net7.0/ejer-gestionProduc.runtimeconfig.json
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/bin/Debug/net7.0/ejer-gestionProduc.dll
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/bin/Debug/net7.0/ejer-gestionProduc.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.dll
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/refint/ejer-gestionProduc.dll
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.pdb
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ejer-gestionProduc.genruntimeconfig.cache
+/home/arteN01-48/Desktop/Csharp/ejer-gestionProduc/obj/Debug/net7.0/ref/ejer-gestionProduc.dll
