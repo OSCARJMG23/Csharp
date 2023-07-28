@@ -59,11 +59,11 @@ class Program {
     static void AgregarProducto() {
         List<string> clientes = new List<string>();
         Console.Write("Codigo del producto: ");
-        int codigoP = Convert.ToInt32(Console.ReadLine());
+        int codigoP = int.TryParse(Console.ReadLine(), out int p1 ) ? p1 : 0;
         Console.Write("Nombre del producto: ");
-        string? nombreP = Console.ReadLine();
+        string? nombreP = Console.ReadLine() ?? "";
         Console.Write("Precio del Producto: ");
-        double precioP = double.Parse(Console.ReadLine());
+        double precioP = double.TryParse(Console.ReadLine(), out double pp ) ? pp : 0;
         Console.Write("Inventario disponible en stock: ");
         int inventarioP = Convert.ToInt32(Console.ReadLine());
         Console.Write("Cuantos clientes tiene el producto: ");
@@ -71,7 +71,7 @@ class Program {
         for(int i =0; i < nClientes; i++)
         {
             Console.Write("Introduce el nombre del cliente: ");
-            string? cliente = Console.ReadLine();
+            string? cliente = Console.ReadLine()?? " ";
             clientes.Add(cliente);
         }
         Producto producto = new Producto(codigoP, nombreP, precioP, inventarioP,clientes);
@@ -118,7 +118,7 @@ class Program {
         if (Productos.ContainsKey(codigoP))
         {
             Console.Write($"Ingrese el nuevo precio del producto con el codigo {codigoP}: ");
-            double newPrecioP = double.Parse(Console.ReadLine());
+            double newPrecioP = double.TryParse(Console.ReadLine(), out double p2 ) ? p2 : 0;
 
             var product = Productos[codigoP];
             product.ActualizarPrecioP(newPrecioP);
@@ -159,7 +159,7 @@ class Program {
             for (int i = 0; i < nClientes; i++)
             {
                 Console.Write("Introduce el nombre del nuevo cliente: ");
-                string nuevoCliente = Console.ReadLine();
+                string nuevoCliente = Console.ReadLine() ?? " ";
                 nuevosClientes.Add(nuevoCliente);
             }
 
