@@ -24,6 +24,16 @@ public class Producto
             Console.WriteLine("********************* Producto Encontrado *********************\n");
             Console.WriteLine($"Codigo Producto: {Codigo} Nombre Producto: {Nombre} Precio: {Precio} Inventario:{Inventario} Clientes: {clientes}");
     }
-
-
+    public void ActualizarPrecioP(double newPrecio)
+    {
+        Precio = newPrecio;
+    }
+    public void ActualizarInventarioP(int newInventario)
+    {
+        Inventario= newInventario;
+    }
+    public void actualizarClientesP(List<string> nuevosClientes)
+    {
+        Clientes = nuevosClientes;
+    }
 }

@@ -16,18 +16,18 @@ class Program {
                 case 2:
                     DetallesProducto();
                     break;
-                // case 3:
-                //     listaProductos();
-                //     break;
-                // case 4:
-                //     actualizarPrecioP();
-                //     break;
-                // case 5:
-                //     actualizarInventario();
-                //     break;
-                // case 6:
-                //     actualiarClientes();
-                //     break;
+                case 3:
+                    listaProductos();
+                    break;
+                case 4:
+                    actualizarPrecioP();
+                    break;
+                case 5:
+                    actualizarInventario();
+                    break;
+                case 6:
+                    actualizarClientes();
+                    break;
                 case 7:
                     Console.WriteLine("Hasta luego.");
                     break;
@@ -92,38 +92,84 @@ class Program {
         }
     }
 
-    // static void MostrarUsuarios() {
-    //     Console.WriteLine("*********************   Usuarios Disponibles   *********************\n");
-    //     if(Usuarios.Count >=1)
-    //     {
-    //         foreach (var usuario in Usuarios)
-    //         {
-    //             int nDoc = usuario.Key;
-    //             var user = usuario.Value;
+    static void listaProductos() {
+        Console.WriteLine("*********************   Productos Disponibles   *********************\n");
+        if(Productos.Count >=1)
+        {
+            foreach (var producto in Productos)
+            {
+                int codigoP = producto.Key;
+                var product = producto.Value;
 
-    //             string hobbies = string.Join(", ", user.Hobbies); // Unir los hobbies en una cadena separada por comas
+                string clientes = string.Join(", ", product.Clientes); // Unir los hobbies en una cadena separada por comas
 
-    //             Console.WriteLine($"Número de documento: {nDoc} \t Nombre: {user.Nombre} \t Edad: {user.Edad} \t Hobbies: {hobbies}");
-    //         }
+                Console.WriteLine($"Codigo del producto: {codigoP} \t Nombre Producto: {product.Nombre} \t Precio Producto: {product.Precio} \t Inventario: {product.Inventario} \t Clientes: {clientes}");
+            }
         
-    //     }
-    //     else
-    //     {
-    //         Console.WriteLine("No hay usuarios registrados.");
-    //     }
-    // }
-    // static void EiminarUsuario() {
-    //     Console.Write("Ingrese el documento del usuario a eliminar: ");
-    //     int nDocDelete = Convert.ToInt32(Console.ReadLine());
-    //     if(Usuarios.ContainsKey(nDocDelete))
-    //     {
-    //         Usuarios.Remove(nDocDelete);
-    //         Console.WriteLine("********************* Usuario eliminado *********************");
-    //     }
-    //     else
-    //     {
-    //         Console.WriteLine($"**************** El usuario con numero de documento {nDocDelete} no existe ****************");
-    //     }
+        }
+        else
+        {
+            Console.WriteLine("No hay productos registrados.");
+        }
+    }
+    static void actualizarPrecioP() {
+        Console.Write("Ingrese el codigo del producto para actualizar su precio: ");
+        int codigoP = Convert.ToInt32(Console.ReadLine());
+        if (Productos.ContainsKey(codigoP))
+        {
+            Console.Write($"Ingrese el nuevo precio del producto con el codigo {codigoP}: ");
+            double newPrecioP = double.Parse(Console.ReadLine());
 
-    // }
+            var product = Productos[codigoP];
+            product.ActualizarPrecioP(newPrecioP);
+            Console.WriteLine("Precio actualizado correctamente.");
+        }
+        else
+        {
+            Console.WriteLine($"El producto con el codigo: {codigoP} no existe");
+        }
+    }
+    static void actualizarInventario() {
+        Console.Write("Ingrese el codigo del producto para actualizar su inventario: ");
+        int codigoP = Convert.ToInt32(Console.ReadLine());
+        if (Productos.ContainsKey(codigoP))
+        {
+            Console.Write($"Ingrese el nuevo inventario del producto con el codigo {codigoP}: ");
+            int newInventarioP = Convert.ToInt32(Console.ReadLine());
+
+            var product = Productos[codigoP];
+            product.ActualizarInventarioP(newInventarioP);
+            Console.WriteLine($"Inventario del producto {codigoP} actualizado correctamente");
+        }
+        else
+        {
+            Console.WriteLine($"No existe ningun producto con el codigo {codigoP}");
+        }
+    }
+    static void actualizarClientes()
+    {
+        Console.Write("Ingrese el codigo del producto para actualizar sus clientes: ");
+        int codigoP = Convert.ToInt32(Console.ReadLine());
+        if (Productos.ContainsKey(codigoP))
+        {
+            Console.Write($"Ingrese la cantidad de nuevos clientes para el producto con el codigo {codigoP}: ");
+            int nClientes = Convert.ToInt32(Console.ReadLine());
+            List<string> nuevosClientes = new List<string>();
+
+            for (int i = 0; i < nClientes; i++)
+            {
+                Console.Write("Introduce el nombre del nuevo cliente: ");
+                string nuevoCliente = Console.ReadLine();
+                nuevosClientes.Add(nuevoCliente);
+            }
+
+            var product = Productos[codigoP];
+            product.actualizarClientesP(nuevosClientes);
+            Console.WriteLine($"Clientes del producto {codigoP} actualizados correctamente.");
+        }
+        else
+        {
+            Console.WriteLine($"No existe ningun producto con el codigo {codigoP}");
+        }
+    }
 }
