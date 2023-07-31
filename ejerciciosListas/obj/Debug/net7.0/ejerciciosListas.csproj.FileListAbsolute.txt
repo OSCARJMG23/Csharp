@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/bin/Debug/net7.0/ejerciciosListas
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/bin/Debug/net7.0/ejerciciosListas.deps.json
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/bin/Debug/net7.0/ejerciciosListas.runtimeconfig.json
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/bin/Debug/net7.0/ejerciciosListas.dll
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/bin/Debug/net7.0/ejerciciosListas.pdb
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.AssemblyInfo.cs
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.dll
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/refint/ejerciciosListas.dll
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.pdb
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ejerciciosListas.genruntimeconfig.cache
+/home/arteN01-48/Desktop/Csharp/ejerciciosListas/obj/Debug/net7.0/ref/ejerciciosListas.dll
