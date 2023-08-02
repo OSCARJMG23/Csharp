@@ -8,25 +8,25 @@ namespace ejer_class1;
     public class Usuario
     {
         public string Nombre;
-        public int Documento;
+        public string Documento;
 
-        public Usuario(string _nombre, int _documento){
+        public Usuario(string _nombre, string _documento){
             this.Nombre = _nombre;
             this.Documento = _documento;
         }
 
         public string getNombre{
-            get{return this.nombre;}
+            get{return this.Nombre;}
         }
 
         public string setNombre{
-            set{this.nombre = value;}
+            set{this.Nombre = value;}
         }
         public string getDocumento{
-            get{return this.documento;}
+            get{return this.Documento;}
         }
         public string setDocumento{
-            set{this.documento = value;}
+            set{this.Documento = value;}
         }
 
     }
