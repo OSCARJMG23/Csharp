@@ -55,7 +55,11 @@ internal class Program
                         opcionConsulta = menuConsulta.menuConsulta();
                         switch(opcionConsulta){
                             case 1:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Liga ligaBusacar = new Liga();
+                                Liga opcionLiga= ligaBusacar.buscarLiga(Ligas);
+                                Equipo equipoBuscar = new Equipo();
+                                equipoBuscar.consultarEquipo(opcionLiga.EquiposLiga);
+                                Console.WriteLine(opcionLiga.EquiposLiga.Count);
                                 break;
                             case 2:
                                 Console.WriteLine("Volviendo al Menu Principal");
@@ -66,12 +70,15 @@ internal class Program
                             case 4:
                                 Console.WriteLine("Volviendo al Menu Principal");
                                 break;
+                            case 5:
+                                Console.WriteLine("Volviendo al Menu Principal");
+                                break;
                             default:
                                 Console.WriteLine("Opcion no valida");
                                 break;
                         }
                         break;
-                    }while(opcionConsulta!= 4);
+                    }while(opcionConsulta!= 5);
                     break;
                 case 3:
                     Liga liga = new Liga();
@@ -89,7 +96,4 @@ internal class Program
         
     }
 
-
-
-    
 }
