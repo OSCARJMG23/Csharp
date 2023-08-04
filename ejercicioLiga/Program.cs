@@ -28,7 +28,14 @@ internal class Program
                                 opcionLiga.EquiposLiga.Add(nuevoEquipo);
                                 break;
                             case 2:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Liga ligaBusacarJugador = new Liga();
+                                Liga opcionLigaJugador= ligaBusacarJugador.buscarLiga(Ligas);
+                                Equipo equipoBuscarJugador = new Equipo();
+                                equipoBuscarJugador = equipoBuscarJugador.consultarEquipo(opcionLigaJugador.EquiposLiga);
+                                Jugador jugador = new Jugador();
+                                jugador = jugador.agregarJugador();
+                                equipoBuscarJugador.Jugadores.Add(jugador);
+
                                 break;
                             case 3:
                                 Console.WriteLine("Volviendo al Menu Principal");

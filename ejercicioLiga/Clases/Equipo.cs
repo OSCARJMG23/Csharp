@@ -37,17 +37,21 @@ namespace ejercicioLiga.Clases
 
             return equipo;
         }
-        public void consultarEquipo(List<Equipo> EquiposLigas){
+        public Equipo consultarEquipo(List<Equipo> EquiposLigas){
             Console.WriteLine("Equipos");
             foreach (var equipo in EquiposLigas){
                 Console.WriteLine($"{equipo.Nombre}");
             }
+            Console.ReadKey();
+
             Console.Write("Ingrese el nombre del equipo: ");
             string nombreConsultar = Console.ReadLine();
             
             Equipo equipoSeleccionado = EquiposLigas.Find(equipo => equipo.Nombre.Equals(nombreConsultar));
-            Console.WriteLine("Nombre Equipo \t\t ")
+            Console.WriteLine("Nombre Equipo \t\t ");
             Console.WriteLine($"{equipoSeleccionado.Nombre}\t{equipoSeleccionado.Propietarios.Count} \t{equipoSeleccionado.Jugadores.Count} \t{equipoSeleccionado.Entrenadores.Count} \t{equipoSeleccionado.Masajistas.Count}");
+            Console.ReadKey();
+            return equipoSeleccionado;
         }
     }
 }

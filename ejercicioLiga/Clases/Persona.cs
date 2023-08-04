@@ -20,5 +20,6 @@ namespace ejercicioLiga.Clases
             this.Id = id;
             
         }
+        public Persona(){}
     }
 }
