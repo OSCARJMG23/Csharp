@@ -49,5 +49,18 @@ namespace ejercicioLiga.Clases
             
             return jugador;
         }
+
+        public void buscarJugador(List<Jugador> jugadores)
+        {
+            foreach (var jugador in jugadores){
+                Console.WriteLine($"{jugador.Id}\t {jugador.Nombre}\t {jugador.Edad}\t {jugador.CiudadOrigen}\t {jugador.Dorsal}\t {jugador.Posicion}\t {jugador.NivelHabilidad}\t {jugador.PiernaHabil}");
+            }
+            Console.Write("Ingrese el nombre del jugador: ");
+            string nombreBuscar =Console.ReadLine();
+
+            Jugador jugadorSeleccionado = jugadores.Find(jugador=>jugador.Nombre.Equals(nombreBuscar));
+            Console.WriteLine($"{jugadorSeleccionado.Id}\t {jugadorSeleccionado.Nombre}\t {jugadorSeleccionado.Edad}\t {jugadorSeleccionado.CiudadOrigen}\t {jugadorSeleccionado.Dorsal}\t {jugadorSeleccionado.Posicion}\t {jugadorSeleccionado.NivelHabilidad}\t {jugadorSeleccionado.PiernaHabil}");
+            return jugadorSeleccionado;
     }
+
 }

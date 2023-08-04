@@ -38,13 +38,35 @@ internal class Program
 
                                 break;
                             case 3:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Liga ligaBuscarEntrenador = new Liga();
+                                Liga opcionLigaEntrenador = ligaBuscarEntrenador.buscarLiga(Ligas);
+                                Equipo equipoBuscarEntrenador = new Equipo();
+                                equipoBuscarEntrenador = equipoBuscarEntrenador.consultarEquipo(opcionLigaEntrenador.EquiposLiga);
+                                Entrenador entrenador = new Entrenador();
+                                entrenador = entrenador.agregarEntrenador();
+                                equipoBuscarEntrenador.Entrenadores.Add(entrenador);
+
                                 break;
                             case 4:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Liga ligaBuscarMasajista = new Liga();
+                                Liga opcionLigaMasajista = ligaBuscarMasajista.buscarLiga(Ligas);
+                                Equipo equipoBuscarMasajista = new Equipo();
+                                equipoBuscarMasajista = equipoBuscarMasajista.consultarEquipo(opcionLigaMasajista.EquiposLiga);
+                                Masajista masajista = new Masajista();
+                                masajista = masajista.agregarMasajista();
+                                equipoBuscarMasajista.Masajistas.Add(masajista);
+
                                 break;
                             case 5:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Console.WriteLine("Transferencia de Jugadores");
+                                Liga buscarLigaSalida = new Liga();
+                                Liga opcionLigaSalida = buscarLigaSalida.buscarLiga(Ligas);
+                                Equipo equipoBuscarSalida = new Equipo();
+                                equipoBuscarSalida = equipoBuscarSalida.consultarEquipo(opcionLigaSalida.EquiposLiga);
+                                Jugador judarTransferido = new Jugador();
+                                jugadorTransferido = judarTransferido.buscarJugador.(equipoBuscarSalida.Jugadores);
+                                
+
                                 break;
                             case 6:
                                 Console.WriteLine("Volviendo al Menu Principal");
@@ -69,13 +91,28 @@ internal class Program
                                 Console.WriteLine(opcionLiga.EquiposLiga.Count);
                                 break;
                             case 2:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Console.WriteLine("Listar Jugadores por Equipo");
+                                Liga ligaBuscarJugadores = new Liga();
+                                Liga opcionLigaJugadores = ligaBuscarJugadores.buscarLiga(Ligas);
+                                Equipo equipoBuscarJugadores = new Equipo();
+                                equipoBuscarJugadores = equipoBuscarJugadores.consultarEquipo(opcionLigaJugadores.EquiposLiga);
+                                equipoBuscarJugadores.listarJugadores(equipoBuscarJugadores.Jugadores);
                                 break;
                             case 3:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Console.WriteLine("Delanteros por Equipo");
+                                Liga ligaBuscarDelantero = new Liga();
+                                Liga opcionLigaDelantero = ligaBuscarDelantero.buscarLiga(Ligas);
+                                Equipo equipoBuscarDelantero = new Equipo();
+                                equipoBuscarDelantero = equipoBuscarDelantero.consultarEquipo(opcionLigaDelantero.EquiposLiga);
+                                equipoBuscarDelantero.listarDelanteros(equipoBuscarDelantero.Jugadores);
                                 break;
                             case 4:
-                                Console.WriteLine("Volviendo al Menu Principal");
+                                Console.WriteLine("Consultar entrenadores por Equipo");
+                                Liga ligaBuscarEntrenador = new Liga();
+                                Liga opcionLigaEntrenador = ligaBuscarEntrenador.buscarLiga(Ligas);
+                                Equipo equipoBuscarEntrenador = new Equipo();
+                                equipoBuscarEntrenador = equipoBuscarEntrenador.consultarEquipo(opcionLigaEntrenador.EquiposLiga);
+                                equipoBuscarEntrenador.listarEntrenadores(equipoBuscarEntrenador.Entrenadores);
                                 break;
                             case 5:
                                 Console.WriteLine("Volviendo al Menu Principal");
