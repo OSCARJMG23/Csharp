@@ -1,0 +1,15 @@
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.csproj.AssemblyReference.cache
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.AssemblyInfoInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.AssemblyInfo.cs
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.csproj.CoreCompileInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\bin\Debug\net7.0\ejercicioTallerAutos.exe
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\bin\Debug\net7.0\ejercicioTallerAutos.deps.json
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\bin\Debug\net7.0\ejercicioTallerAutos.runtimeconfig.json
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\bin\Debug\net7.0\ejercicioTallerAutos.dll
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\bin\Debug\net7.0\ejercicioTallerAutos.pdb
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.dll
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\refint\ejercicioTallerAutos.dll
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.pdb
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ejercicioTallerAutos.genruntimeconfig.cache
+C:\Users\DDR5\Documents\Csharp\ejercicioTallerAutos\obj\Debug\net7.0\ref\ejercicioTallerAutos.dll

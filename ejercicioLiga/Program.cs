@@ -63,10 +63,14 @@ internal class Program
                                 Liga opcionLigaSalida = buscarLigaSalida.buscarLiga(Ligas);
                                 Equipo equipoBuscarSalida = new Equipo();
                                 equipoBuscarSalida = equipoBuscarSalida.consultarEquipo(opcionLigaSalida.EquiposLiga);
-                                Jugador judarTransferido = new Jugador();
-                                jugadorTransferido = judarTransferido.buscarJugador.(equipoBuscarSalida.Jugadores);
-                                
-
+                                Jugador jugadorTransferido = new Jugador();
+                                jugadorTransferido = jugadorTransferido.buscarJugador(equipoBuscarSalida.Jugadores);
+                                Console.WriteLine("Equipo a Transferir el Jugador");
+                                Liga busacarLigaEntrada = new Liga();
+                                Liga opcionLigaEntrada = busacarLigaEntrada.buscarLiga(Ligas);
+                                Equipo equipoBuscarEntrada = new Equipo();
+                                equipoBuscarEntrada = equipoBuscarEntrada.consultarEquipo(opcionLigaEntrada.EquiposLiga);
+                                transferirJugador(equipoBuscarSalida,jugadorTransferido,equipoBuscarEntrada);
                                 break;
                             case 6:
                                 Console.WriteLine("Volviendo al Menu Principal");
@@ -113,6 +117,7 @@ internal class Program
                                 Equipo equipoBuscarEntrenador = new Equipo();
                                 equipoBuscarEntrenador = equipoBuscarEntrenador.consultarEquipo(opcionLigaEntrenador.EquiposLiga);
                                 equipoBuscarEntrenador.listarEntrenadores(equipoBuscarEntrenador.Entrenadores);
+
                                 break;
                             case 5:
                                 Console.WriteLine("Volviendo al Menu Principal");
@@ -138,6 +143,13 @@ internal class Program
             }
         }while(opcion !=4);
         
+    }
+    public static void transferirJugador(Equipo equipoSalida, Jugador jugador, Equipo equipoEntrada)
+    {
+        equipoSalida.Jugadores.Remove(jugador);
+        equipoEntrada.Jugadores.Add(jugador);
+        Console.WriteLine($"{jugador.Nombre} fue transferido exitosamente de {equipoSalida.Nombre} al equipo de {equipoEntrada.Nombre}");
+        Console.ReadKey();
     }
 
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLiga\\ejercicioLiga.csproj": {}
+    "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioTallerAutos\\ejercicioTallerAutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLiga\\ejercicioLiga.csproj": {
+    "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioTallerAutos\\ejercicioTallerAutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLiga\\ejercicioLiga.csproj",
-        "projectName": "ejercicioLiga",
-        "projectPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLiga\\ejercicioLiga.csproj",
+        "projectUniqueName": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioTallerAutos\\ejercicioTallerAutos.csproj",
+        "projectName": "ejercicioTallerAutos",
+        "projectPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioTallerAutos\\ejercicioTallerAutos.csproj",
         "packagesPath": "C:\\Users\\DDR5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLiga\\obj\\",
+        "outputPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioTallerAutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DDR5\\AppData\\Roaming\\NuGet\\NuGet.Config"
