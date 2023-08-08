@@ -93,11 +93,13 @@ namespace ejercicioTallerAutos.clases
         public Factura facturaOrden(OrdenServicio orden)
         {
             double subtotalRepuestos = 0;
+            List<DetalleAprobacionRepuesto> DetallesAprobados = new List<DetalleAprobacionRepuesto>();
             foreach(var detalle in orden.DetallesAprobacion)
             {
                 if(detalle.Estado == DetalleAprobacionRepuesto.EstadoAprobado)
                 {
                     subtotalRepuestos += detalle.ValorTotal;
+                    DetallesAprobados.Add(detalle);
                 }
             }
             double manoObra = subtotalRepuestos * 0.10;
@@ -105,8 +107,9 @@ namespace ejercicioTallerAutos.clases
             double iva = subtotal * 0.19;
             double totalPagar = subtotal + iva;
 
-            Factura factura = new Factura(orden.NumeroOrden, orden.Cliente.Cc, subtotal, iva,manoObra,totalPagar);
+            Factura factura = new Factura(orden.NumeroOrden, orden.Cliente.Cc, subtotal, iva, manoObra, totalPagar,DetallesAprobados);
             return factura;
         }
+        
     }
 }

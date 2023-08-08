@@ -125,6 +125,8 @@ internal class Program
 
                                 taller.generarOrdenServicio(nuevaOrden);
                                 Console.WriteLine("Orden de servicio creada exitosamente.");
+                                Factura factura = taller.facturaOrden(nuevaOrden);
+                                Console.WriteLine(factura);
                             }
                             else
                             {
