@@ -108,7 +108,103 @@ namespace ejercicioTallerAutos.clases
             double totalPagar = subtotal + iva;
 
             Factura factura = new Factura(orden.NumeroOrden, orden.Cliente.Cc, subtotal, iva, manoObra, totalPagar,DetallesAprobados);
+                Console.WriteLine("--------------------------------------------------------------");
+                Console.WriteLine($"Numero Orden: {factura.NumeroOrden}");
+                Console.WriteLine($"Id Cliente: {factura.IdCliente}");
+                Console.WriteLine("--------------------------------------------------------------");
+                Console.WriteLine("| item | Repuesto | valor unitario | cantidad | valor Total | Estado |");
+                Console.WriteLine("|------|----------|----------------|----------|-------------|--------|");
+                    for (int i = 0; i < factura.DetallesAprobados.Count; i++)
+                    {
+                        DetalleAprobacionRepuesto detalle = factura.DetallesAprobados[i];
+                        string estado = detalle.Estado == DetalleAprobacionRepuesto.EstadoAprobado ? "   A    " : "   R    ";
+
+                        Console.WriteLine($"|  {i + 1,-6} |  {detalle.Repuesto,-10} |  {detalle.ValorUnitario,-15:C} |  {detalle.Cantidad,-9} |  {detalle.ValorTotal,-12:C} |  {estado} |");
+                    }
+                        Console.WriteLine("|-----------------------|----------------|----------|-------------|--------|");
+                        Console.WriteLine($"|                       |                |          | Subtotal    | {subtotal,-7:C} |");
+                        Console.WriteLine($"|                       |                |          | Iva 19%     | {iva,-7:C} |");
+                        Console.WriteLine($"|                       |                |          | Mano de Obra| {manoObra,-7:C} |");
+                        Console.WriteLine("|-----------------------|----------------|----------|-------------|--------|");
+                        Console.WriteLine($"|                       |                |          | Total       | {totalPagar,-7:C} |");
+                        Console.WriteLine("--------------------------------------------------------------");
             return factura;
+        }
+        public void listarOrdenes()
+        {
+            Console.WriteLine("Lista de Órdenes de Servicio:");
+            foreach (var orden in Ordenes)
+            {
+                Console.WriteLine("------- Datos de la orden --------");
+                Console.WriteLine($"Numero orden: {orden.NumeroOrden}   Fecha orden: {orden.FechaOrden}");
+                Console.WriteLine($"Id cliente: {orden.Cliente.Cc}   Nombre cliente: {orden.Cliente.Nombre} {orden.Cliente.Apellido}");
+                Console.WriteLine("-------------- Datos vehiculo  ---------------");
+                Console.WriteLine($"Numero placa: {orden.Vehiculo.Placa}   Km: {orden.Vehiculo.Kilometraje}");
+                Console.WriteLine("-------------- Diagnostico Cliente --------------");
+                Console.WriteLine(orden.DiagnosticoCliente);
+                Console.WriteLine("-------------- Personal a cargo ------------------");
+                foreach (var empleado in orden.DiagnosticosExpertos.Select(diagnostico => diagnostico.Empleado))
+                {
+                    Console.WriteLine($"Numero Cc: {empleado.Cc}   Nombre: {empleado.Nombre} {empleado.Apellido}");
+                    Console.WriteLine("Especialidad:");
+                    foreach (var especialidad in empleado.Especialidades)
+                    {
+                        Console.WriteLine($"   - {especialidad}");
+                    }
+                }
+                Console.WriteLine("-------------- Diagnostico Experto --------------");
+                foreach (var diagnostico in orden.DiagnosticosExpertos)
+                {
+                    Console.WriteLine($"Numero Cc: {diagnostico.Empleado.Cc}   Nombre: {diagnostico.Empleado.Nombre} {diagnostico.Empleado.Apellido}");
+                    Console.WriteLine($"Diagnostico: {diagnostico.Diagnostico}");
+                }
+                Console.WriteLine("-------------------------------------------------------");
+            }
+        }
+        public void agregarMecanicoAorden(int numeroOrden)
+        {
+            OrdenServicio orden = Ordenes.Find(ord => ord.NumeroOrden == numeroOrden);
+            if(orden != null)
+            {
+                Console.WriteLine("Empleados Disponibles");
+                listarEmpleados();
+                Console.Write("Ingrese el numero de documento del mecanico a asignar: ");
+                double numeroDocumentoEmpleado = Convert.ToDouble(Console.ReadLine());
+                Empleado empleado = Empleados.Find(empl => empl.Cc == numeroDocumentoEmpleado);
+                if(empleado != null)
+                {
+                    orden.Empleado = empleado;
+                    Console.WriteLine("Empleado agregado exitosamente");
+                }
+                else
+                {
+                    Console.WriteLine("No se encontró el empleado");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No se encontró la orden");
+            }
+        }
+        public void listarDetallesAprobacion(int numOrden){
+            OrdenServicio orden = Ordenes.Find(ord => ord.NumeroOrden == numOrden);
+            if(orden != null)
+            {
+                Console.WriteLine($"Numero orden: {orden.NumeroOrden}");
+                Console.WriteLine($"Fecha: {orden.FechaOrden}");
+                Console.WriteLine($"idEmpleado: {orden.Empleado.Cc}");
+                Console.WriteLine("---------------------Detalle de aprobacion-----------------");
+                Console.WriteLine("|  item  |  Repuesto  |  valor unitario  |  cantidad  |  valor Total  |  Estado  |");
+                Console.WriteLine("|--------------------------------------------------------|");
+
+                for(int i = 0; i < orden.DetallesAprobacion.Count; i++)
+                {
+                    DetalleAprobacionRepuesto detalle = orden.DetallesAprobacion[i];
+                    string estado = detalle.Estado == DetalleAprobacionRepuesto.EstadoAprobado ? "   A    " : "   R    ";
+                    Console.WriteLine($"|  {i + 1,-6} |  {detalle.Repuesto,-10} |  {detalle.ValorUnitario,-15:C} |  {detalle.Cantidad,-9} |  {detalle.ValorTotal,-12:C} |  {estado} |");
+                }
+                Console.WriteLine("----------------------------------------------------------");
+            }
         }
         
     }

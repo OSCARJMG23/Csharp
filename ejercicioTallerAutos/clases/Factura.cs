@@ -25,25 +25,5 @@ namespace ejercicioTallerAutos.clases
             this.TotalPagar = totalPagar;
             this.DetallesAprobados = detallesAprobados;
         }
-
-        public override string ToString()
-        {
-            return $@"
-                            ---------------Factura------------------
-                    numero Orden: {this.NumeroOrden}   numero Factura: {this.IdCliente}
-                    Id cliente: {this.IdCliente}
-                    ---------------------Detalle Factura----------------------
-                    | item | Repuesto | valor unitario | cantidad | subtotal |
-                    |      |          |                |          |          |
-                    |      |          |                |          |          |
-                    |      |          |                |          |          |
-                    |      |          |                |          |          |
-                    ----------------------------------------------------------
-                                                    Subtotal: {this.SubTotal}
-                                                    Iva 19%: {this.Iva}
-                                                    Valor mano de obra: {this.ManoObra}
-                                                    Total Pagar: {this.TotalPagar}
-            ";
-        }
     }
 }

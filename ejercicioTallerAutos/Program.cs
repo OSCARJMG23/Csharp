@@ -125,8 +125,8 @@ internal class Program
 
                                 taller.generarOrdenServicio(nuevaOrden);
                                 Console.WriteLine("Orden de servicio creada exitosamente.");
-                                Factura factura = taller.facturaOrden(nuevaOrden);
-                                Console.WriteLine(factura);
+                                /* Factura factura = taller.facturaOrden(nuevaOrden);
+                                Console.WriteLine(factura); */
                             }
                             else
                             {
@@ -144,14 +144,41 @@ internal class Program
                     }
                     break;
                 case 7:
+                    Console.WriteLine("Agregar Mecanico a una orden");
+                    taller.listarOrdenes();
+                    Console.Write("Ingrese el numero de orden a la que desea agregar el mecanico: ");
+                    int numeroOrdenAgregarMecanico = Convert.ToInt32(Console.ReadLine());
+                    taller.agregarMecanicoAorden(numeroOrdenAgregarMecanico);
                     break;
                 case 8:
+                    Console.WriteLine("Generando Factura");
+                    taller.listarOrdenes();
+                    Console.Write("Ingrese el numero para generar la factura: ");
+                    int numOrdenFactura = Convert.ToInt32(Console.ReadLine());
+                    OrdenServicio ordenFactura = taller.Ordenes.Find(ord => ord.NumeroOrden == numOrdenFactura);
+                    if(ordenFactura != null)
+                    {
+                        Console.Write("Desea conocer los detalles de aprobacion para esta orden? S/N: ");
+                        string opcionDetalles = Console.ReadLine();
+                            if (opcionDetalles == "S" || opcionDetalles == "s")
+                            {
+                                taller.listarDetallesAprobacion(numOrdenFactura);
+                            }
+                        Factura factura = taller.facturaOrden(ordenFactura);
+                        Console.WriteLine(factura);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Orden no encontrada");
+                    }
+                    break;
+                case 9:
                     Console.WriteLine("Hasta Luego");
                     break;
                 default:
                 Console.WriteLine("Ingrese una opción valida");
                     break;
             }
-        }while(opcion !=8);
+        }while(opcion !=9);
     }
 }

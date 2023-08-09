@@ -18,7 +18,8 @@ namespace ejercicioTallerAutos.view
             Console.WriteLine("5. Listar Empleados");
             Console.WriteLine("6. Crear Nueva Orden");
             Console.WriteLine("7. Agregar Mecanico a una Orden");
-            Console.WriteLine("8. salir");
+            Console.WriteLine("8. Generar Factura");
+            Console.WriteLine("9. salir");
             Console.Write("Seleccione una opción: ");
             return Convert.ToInt32(Console.ReadLine());
         }
