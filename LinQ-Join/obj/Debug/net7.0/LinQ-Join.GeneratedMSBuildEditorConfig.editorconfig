@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = ejercicioTallerAutos
-build_property.ProjectDir = /home/arteN01-48/Desktop/Csharp/ejercicioTallerAutos/
+build_property.RootNamespace = LinQ_Join
+build_property.ProjectDir = /home/arteN01-48/Desktop/Csharp/LinQ-Join/

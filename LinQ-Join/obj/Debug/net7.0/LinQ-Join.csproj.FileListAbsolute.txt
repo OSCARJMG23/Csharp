@@ -1,0 +1,15 @@
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/bin/Debug/net7.0/LinQ-Join
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/bin/Debug/net7.0/LinQ-Join.deps.json
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/bin/Debug/net7.0/LinQ-Join.runtimeconfig.json
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/bin/Debug/net7.0/LinQ-Join.dll
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/bin/Debug/net7.0/LinQ-Join.pdb
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.csproj.AssemblyReference.cache
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.AssemblyInfoInputs.cache
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.AssemblyInfo.cs
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.csproj.CoreCompileInputs.cache
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.dll
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/refint/LinQ-Join.dll
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.pdb
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/LinQ-Join.genruntimeconfig.cache
+/home/arteN01-48/Desktop/Csharp/LinQ-Join/obj/Debug/net7.0/ref/LinQ-Join.dll

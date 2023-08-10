@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-48/Desktop/Csharp/ejercicioTallerAutos/ejercicioTallerAutos.csproj": {}
+    "/home/arteN01-48/Desktop/Csharp/ejercioLinQproductos/ejercioLinQproductos.csproj": {}
   },
   "projects": {
-    "/home/arteN01-48/Desktop/Csharp/ejercicioTallerAutos/ejercicioTallerAutos.csproj": {
+    "/home/arteN01-48/Desktop/Csharp/ejercioLinQproductos/ejercioLinQproductos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-48/Desktop/Csharp/ejercicioTallerAutos/ejercicioTallerAutos.csproj",
-        "projectName": "ejercicioTallerAutos",
-        "projectPath": "/home/arteN01-48/Desktop/Csharp/ejercicioTallerAutos/ejercicioTallerAutos.csproj",
+        "projectUniqueName": "/home/arteN01-48/Desktop/Csharp/ejercioLinQproductos/ejercioLinQproductos.csproj",
+        "projectName": "ejercioLinQproductos",
+        "projectPath": "/home/arteN01-48/Desktop/Csharp/ejercioLinQproductos/ejercioLinQproductos.csproj",
         "packagesPath": "/home/arteN01-48/.nuget/packages/",
-        "outputPath": "/home/arteN01-48/Desktop/Csharp/ejercicioTallerAutos/obj/",
+        "outputPath": "/home/arteN01-48/Desktop/Csharp/ejercioLinQproductos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/arteN01-48/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
