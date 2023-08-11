@@ -1,0 +1,17 @@
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.csproj.AssemblyReference.cache
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.AssemblyInfoInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.AssemblyInfo.cs
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.csproj.CoreCompileInputs.cache
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\bin\Debug\net7.0\ejercioLinQproductos.exe
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\bin\Debug\net7.0\ejercioLinQproductos.deps.json
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\bin\Debug\net7.0\ejercioLinQproductos.runtimeconfig.json
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\bin\Debug\net7.0\ejercioLinQproductos.dll
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\bin\Debug\net7.0\ejercioLinQproductos.pdb
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.csproj.CopyComplete
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.dll
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\refint\ejercioLinQproductos.dll
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.pdb
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ejercioLinQproductos.genruntimeconfig.cache
+C:\Users\DDR5\Documents\Csharp\ejercioLinQproductos\obj\Debug\net7.0\ref\ejercioLinQproductos.dll

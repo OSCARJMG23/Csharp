@@ -15,7 +15,7 @@ namespace ejercioLinQproductos.View
             Console.WriteLine("4-Listar Productos");
             Console.WriteLine("5-Costo total del Inventario");
             Console.WriteLine("6-Salir");
-            return int.Parse(Console.Readline());
+            return int.Parse(Console.ReadLine());
         }
     }
 }

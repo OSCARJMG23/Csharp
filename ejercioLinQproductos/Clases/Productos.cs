@@ -22,21 +22,21 @@ namespace ejercioLinQproductos.Clases
         {
             Productos producto = new Productos();
             Console.WriteLine("Seccion de Registro de Productos");
-            Consosole.Write("Ingrese el codigo del Producto: ");
+            Console.Write("Ingrese el codigo del Producto: ");
             producto.CodProducto = Convert.ToInt32(Console.ReadLine());
-            Consosole.Write("Ingrese el nombre del Producto: ");
+            Console.Write("Ingrese el nombre del Producto: ");
             producto.NombreProducto =  Console.ReadLine();
-            Consosole.Write("Ingrese el Stock que tiene del Producto: ");
+            Console.Write("Ingrese el Stock que tiene del Producto: ");
             producto.Stock = int.Parse(Console.ReadLine());
-            Consosole.Write("Ingrese el stock minimo del Producto: ");
+            Console.Write("Ingrese el stock minimo del Producto: ");
             producto.StockMin =int.Parse (Console.ReadLine ());
-            Consosole.Write("Ingrese el stock maximo del Producto: ");
+            Console.Write("Ingrese el stock maximo del Producto: ");
             producto.StockMax = Int32.Parse(Console.ReadLine());
-            Consosole.Write("Ingrese el precio de venta del Producto: ");
-            producto.PrecioVenta = Double.parse(Console.ReadLine());
-            Consosole.Write("Ingrese el precio de compra del Producto: ");
+            Console.Write("Ingrese el precio de venta del Producto: ");
+            producto.PrecioVenta = Double.Parse(Console.ReadLine());
+            Console.Write("Ingrese el precio de compra del Producto: ");
             producto.PrecioCompra = Double.Parse(Console.ReadLine());
-            Consosole.Write("Ingrese la Categoria del Producto: ");
+            Console.Write("Ingrese la Categoria del Producto: ");
             producto.IdCategoria = int.Parse(Console.ReadLine());
             return producto;
         }
