@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mNMb25OLP7AU0Ll7QD5UiwbquoBDCxcDqj58AUyBCPTyhHh548dcDaPG1Y+4Ix0JSUiD43IZ/DfDkeJMCwjHxQ==",
+  "success": true,
+  "projectFilePath": "/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/ejercicioLinQProductosJson.csproj",
+  "expectedPackageFiles": [
+    "/home/apolt01-022/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

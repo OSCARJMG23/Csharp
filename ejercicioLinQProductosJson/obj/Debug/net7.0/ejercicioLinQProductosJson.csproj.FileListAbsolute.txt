@@ -1,0 +1,17 @@
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/bin/Debug/net7.0/ejercicioLinQProductosJson
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/bin/Debug/net7.0/ejercicioLinQProductosJson.deps.json
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/bin/Debug/net7.0/ejercicioLinQProductosJson.runtimeconfig.json
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/bin/Debug/net7.0/ejercicioLinQProductosJson.dll
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/bin/Debug/net7.0/ejercicioLinQProductosJson.pdb
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.csproj.AssemblyReference.cache
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.GeneratedMSBuildEditorConfig.editorconfig
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.AssemblyInfoInputs.cache
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.AssemblyInfo.cs
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.csproj.CoreCompileInputs.cache
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.csproj.CopyComplete
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.dll
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/refint/ejercicioLinQProductosJson.dll
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.pdb
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ejercicioLinQProductosJson.genruntimeconfig.cache
+/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/Debug/net7.0/ref/ejercicioLinQProductosJson.dll

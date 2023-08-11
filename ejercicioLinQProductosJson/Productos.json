@@ -1,0 +1,30 @@
+{
+  "Productos": [
+    {
+      "CodProducto": 1,
+      "NombreProducto": "a",
+      "Stock": 23,
+      "StockMin": 23,
+      "StockMax": 23,
+      "PrecioVenta": 23.0,
+      "PrecioCompra": 23.0,
+      "IdCategoria": 0
+    },
+    {
+      "CodProducto": 2,
+      "NombreProducto": "lentejas",
+      "Stock": 8,
+      "StockMin": 1,
+      "StockMax": 9,
+      "PrecioVenta": 5000.0,
+      "PrecioCompra": 1400.0,
+      "IdCategoria": 1
+    }
+  ],
+  "Categorias": [
+    {
+      "Id": 1,
+      "Descripcion": "granos"
+    }
+  ]
+}
