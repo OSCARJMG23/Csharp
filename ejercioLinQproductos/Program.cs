@@ -7,9 +7,9 @@ internal class Program
     public static void Main(string[] args)
     {
         int opcionMenu;
-        MenuPrincipal menu = new MenuPrincipal();
+        MenuPrincipal menup = new MenuPrincipal();
         do{
-            opcionMenu =  menu.mostrarMenu();
+            opcionMenu =  menup.mostrarMenu();
             switch(opcionMenu){
                 case 1:
                     Productos nuevoProducto = new Productos();

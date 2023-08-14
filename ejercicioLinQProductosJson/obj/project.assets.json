@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "/home/apolt01-022/.nuget/packages/": {}
+    "C:\\Users\\DDR5\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/ejercicioLinQProductosJson.csproj",
+      "projectUniqueName": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLinQProductosJson\\ejercicioLinQProductosJson.csproj",
       "projectName": "ejercicioLinQProductosJson",
-      "projectPath": "/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/ejercicioLinQProductosJson.csproj",
-      "packagesPath": "/home/apolt01-022/.nuget/packages/",
-      "outputPath": "/home/apolt01-022/Desktop/Csharp/ejercicioLinQProductosJson/obj/",
+      "projectPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLinQProductosJson\\ejercicioLinQProductosJson.csproj",
+      "packagesPath": "C:\\Users\\DDR5\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DDR5\\Documents\\Csharp\\ejercicioLinQProductosJson\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/apolt01-022/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\DDR5\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -112,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

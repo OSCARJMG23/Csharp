@@ -25,6 +25,10 @@
     {
       "Id": 1,
       "Descripcion": "granos"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "Aseo Personal"
     }
   ]
 }
