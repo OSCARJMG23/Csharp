@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace ejercioLinQproductos.View
 {
-    public static class MenuPrincipal
+    public class MenuPrincipal
     {
-        public static int mostrarMenu(){
+        public int MostrarMenu(){
             Console.WriteLine("*** Super Tienda ABS");
             Console.WriteLine("1-Registrar Producto");
             Console.WriteLine("2-Registrar Categoria");

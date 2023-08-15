@@ -9,7 +9,7 @@ internal class Program
         int opcionMenu;
         MenuPrincipal menup = new MenuPrincipal();
         do{
-            opcionMenu =  menup.mostrarMenu();
+            opcionMenu =  menup.MostrarMenu();
             switch(opcionMenu){
                 case 1:
                     Productos nuevoProducto = new Productos();
